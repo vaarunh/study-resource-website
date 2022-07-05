@@ -188,7 +188,7 @@ ul {
 
 /* Responsive section */
 
-@media (min-width:320px) and (max-width:580px) {
+@media (min-width:320px) and (max-width:600px) {
 
   img {
     height: 250px;
@@ -210,6 +210,12 @@ ul {
 
   .resourceContainer .resource-item {
     display: block;
+  }
+  .resource-item:hover {
+    /* box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22); */
+    transition: 0.4s;
+    transform: scale(1.05);
+    font-size: 18px;
   }
 
   .resourceContainer .resource-item-list {
@@ -243,52 +249,10 @@ ul {
 
 }
 
-@media (min-width:600px) and (max-width:800px) {
-  /* img {
-    height: 250px;
-    width: 200px;
-  }
+@media (min-width:600px) and (max-width:800px) {}
 
-  .drive-button {
-    display: inline;
-    background-color: #001100;
-    color: #ffffff;
-    padding: 12px 5%;
-    position: relative;
-    border-radius: 6px;
-    font-weight: bold;
-    letter-spacing: 1.5px;
-    margin: 24px 48px;
-    text-decoration: none;
-  }
+@media (min-width:801px) {}
 
-  .resourceContainer .resource-item {
-    display: block;
-  }
+@media (min-width:1025px) {}
 
-  .resourceContainer .resource-item-list {
-    display: block;
-    position: relative;
-  }
-
-  header h1 {
-    display: block;
-    margin: 20px 0;
-  }
-
-  section {
-    margin-top: 4%;
-  } */
-}
-
-@media (min-width:801px) {
-  /* tablet, landscape iPad, lo-res laptops ands desktops */
-}
-
-@media (min-width:1025px) {
-  /* big landscape tablets, laptops, and desktops */
-}
-
-@media (min-width:1281px) {
-  /* hi-res laptops and desktops */
-}
+@media (min-width:1281px) {}
