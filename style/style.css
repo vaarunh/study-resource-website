@@ -163,6 +163,12 @@ a{
 }
 ul{
   display: inline-block;
+  text-align: left;
+}
+
+.resource-item-list span{
+  font-weight: bold;
+  font-size: 1.5em;
 }
 
 .resourceContainer .resource-item-list{
@@ -174,12 +180,32 @@ ul{
 
 /* Responsive section */
 
-@media (min-width:320px) and (max-width:480px)  { 
+@media (min-width:320px) and (max-width:580px)  { 
   
   img{
     height: 250px;
     width: 200px;
   } 
+
+  .drive-button{
+    display: inline;
+    background-color: #001100;
+    color: #ffffff;
+    padding: 12px 5%;
+    position: relative;
+    border-radius: 6px;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    margin: 24px 48px;
+    text-decoration: none;
+  }
+  .resourceContainer .resource-item{
+    display: block;
+  }
+  .resourceContainer .resource-item-list{
+    display: block;
+  }
+
 }
 @media (min-width:480px)  { /* smartphones, Android phones, landscape iPhone */ }
 @media (min-width:600px)  { /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */ }
