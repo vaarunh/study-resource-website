@@ -204,6 +204,11 @@ ul{
   }
   .resourceContainer .resource-item-list{
     display: block;
+    position: relative;
+  }
+  h1{
+    display: block;
+    margin-bottom: 100px ;
   }
 
 }
