@@ -37,7 +37,7 @@ section {
 .resourceContainer .resource-item {
   display: inline-block;
   margin: 10px;
-  border-radius: 12px;
+  border-radius: 4px;
   /* box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22); */
 }
 
