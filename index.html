@@ -17,13 +17,15 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <title>Course Website</title>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.js"
+    integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous">
+    </script>
+
 </head>
 
 <body>
-    <header>
-        <h1>Computer Science Learning Resources</h1>
-        <a class="drive-button" href="https://drive.google.com/drive/folders/1qCeBUHSXqH5xWX0kh2UbXI1ymlj6Qut_?usp=sharing" target="_blank"><span> Get G-Drive Access</span></a>
-    </header>
+    <div id="headerID"> <!-- your header --> </div>
     <section>
         <div class="resourceContainer">
             <!-- Design & Analysis of Algorithms -->
@@ -64,30 +66,14 @@
             
         </div>
     </section>
-    <div class="footer-dark">
-        <footer>
-            <div class="container">
-                <div class="row">
-                    
-                    <div class="col item social">
-                        <a href="https://www.facebook.com/profile.php?id=100008773902927" target="_blank"><i class="fab fa-facebook-f"></i></a>
-                        <a href="https://instagram.com/lovely_sharma0812" target="_blank"><i class="fab fa-instagram"></i></a>
-                        <a href="https://github.com/CoderLovely08" target="_blank"><i class="fab fa-github"></i></a>
-                        <a href="https://linkedin.com/in/lovely-sharma-a54022214" target="_blank"><i class="fab fa-linkedin"></i></a>
-                        <a href="https://t.me/CoderLovely08" target="_blank"><i class="fab fa-telegram"></i></a>
-                        
-                        <br>
-                        <!-- <br> -->
-                            <h4>Connect with me on Social Media</h4>
-                    </div>
-                    <div class="col-md-6 item text">
-                        <h5>Click <a href="https://github.com/CoderLovely08/study-resource-website">here </a>to make a contribution to this project and imporve the existing UI.</h5>
-                    </div>
-                </div>
-                <p class="copyright">Creator Lovely Sharma © 2022</p>
-            </div>
-        </footer>
+    
+    <div id="footerID"> <!-- your header --> </div>
 
+    <script>
+        $("#headerID").load("pages/header.html");
+        $("#footerID").load("pages/footer.html");
+      </script>
+    
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
 
