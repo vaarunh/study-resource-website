@@ -46,7 +46,13 @@ img {
   height: 450px;
   width: 350px;
 }
+marquee{
+  margin-top: 8px;
+}
 
+font{
+  margin-left: 25px;
+}
 .drive-button {
   display: inline;
   background-color: #001100;
